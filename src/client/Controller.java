@@ -114,7 +114,7 @@ public class Controller implements Initializable {
 
                     setTitle("chat: " + nickname);
 
-                    //цикл работы
+                    // цикл работы
                     while (true) {
                         String str = in.readUTF();
                         if (str.startsWith("/")) {
